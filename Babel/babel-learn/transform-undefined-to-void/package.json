@@ -1,0 +1,23 @@
+{
+  "name": "babel-plugin-transform-undefined-to-void",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "debug": "node --inspect-brk node_modules/.bin/babel test/index.js --out-file test/out.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/node": "^7.12.10",
+    "@babel/parser": "^7.12.11",
+    "@babel/traverse": "^7.12.12"
+  },
+  "devDependencies": {
+    "@babel/generator": "^7.12.11",
+    "@babel/template": "^7.12.7",
+    "@babel/types": "^7.12.12",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-tester": "^10.0.0"
+  }
+}
